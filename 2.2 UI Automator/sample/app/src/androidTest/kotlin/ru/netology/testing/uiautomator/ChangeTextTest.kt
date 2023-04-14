@@ -88,4 +88,5 @@ class ChangeTextTest {
         val result = device.findObject(By.res(packageName, "text")).text
         assertEquals(result, activityText)
     }
+    
 }
